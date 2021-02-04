@@ -1,12 +1,14 @@
 from flask import Flask, render_template, redirect
-from flask_pymongo import PyMongo
+from pymongo import MongoClient
 import scrape_costa
 
 # Create an instance of Flask
 app = Flask(__name__)
 
 # Use PyMongo to establish Mongo connection
-mongo = PyMongo(app, uri="mongodb://localhost:27017/weather_app")
+mongo_url = 'mongodb://localhost:27017'
+client = MongoClient(mongo_url)
+db = client.weather_db
 
 
 # Route to render index.html template using data from Mongo
