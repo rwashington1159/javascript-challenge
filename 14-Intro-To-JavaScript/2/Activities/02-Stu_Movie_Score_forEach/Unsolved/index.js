@@ -1,5 +1,5 @@
 // Array of movie ratings
-var movieScores = [
+const movieScores = [
   4.4,
   3.3,
   5.9,
@@ -15,17 +15,17 @@ var movieScores = [
 ];
 
 // Starting a rating count
-var sum = 0;
+let sum = 0;
 
 // Arrays to hold movie scores
-var goodMovieScores = [];
-var okMovieScores = [];
-var badMovieScores = [];
+let goodMovieScores = [];
+let okMovieScores = [];
+let badMovieScores = [];
 
 // Loop through movie scores
-for (var i = 0; i < movieScores.length; i++) {
+for (let i = 0; i < movieScores.length; i++) {
   // Create variable to hold rating score
-  var score = movieScores[i];
+  let score = movieScores[i];
   // Add each score to the rating count
   sum += score;
 
@@ -44,12 +44,12 @@ for (var i = 0; i < movieScores.length; i++) {
 }
 
 // Find the average score
-var avg = sum / movieScores.length;
+let avg = sum / movieScores.length;
 
 // Store the length of movie ratings
-var numGoodMovies = goodMovieScores.length;
-var numOkMovies = okMovieScores.length;
-var numBadMovies = badMovieScores.length;
+let numGoodMovies = goodMovieScores.length;
+let numOkMovies = okMovieScores.length;
+let numBadMovies = badMovieScores.length;
 
 // Print results
 console.log("---------");

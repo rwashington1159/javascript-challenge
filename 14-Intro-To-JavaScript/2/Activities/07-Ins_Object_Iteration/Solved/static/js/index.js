@@ -1,4 +1,4 @@
-var userInfo = {
+let userInfo = {
   name: "Eric",
   age: 32,
   location: "North America"
@@ -15,7 +15,7 @@ Object.entries(userInfo).forEach(([key, value]) => console.log(`Key: ${key} and 
 
 
 // Array of objects
-var users = [
+let users = [
   { name: "Eric", age: 32, location: "North America" },
   { name: "Sally", age: 23, location: "Europe" },
   { name: "Cassandra", age: 27, location: "North America" }];

@@ -1,5 +1,5 @@
 // Array of recipe objects
-var recipes = [
+const recipes = [
   { dish: "Fried fish", spice: "Dorrigo" },
   { dish: "Crab Rangoon", spice: "Akudjura" },
   { dish: "Pickled Okra", spice: "Chili pepper" },
@@ -14,3 +14,6 @@ var recipes = [
 console.log(recipes);
 
 // @TODO: YOUR CODE HERE
+
+console.log('spices****')
+console.log(spices)

@@ -1,6 +1,6 @@
 // filter()
 // An array of objects, representing a cartoon family
-var simpsons = [{
+const simpsons = [{
   name: "Homer",
   age: 45
 }, {
@@ -23,7 +23,7 @@ function selectYounger(person) {
 }
 
 // filter() uses the custom function as its argument
-var youngSimpsons = simpsons.filter(selectYounger);
+let youngSimpsons = simpsons.filter(selectYounger);
 
 // Test
 console.log(youngSimpsons);

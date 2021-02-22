@@ -1,8 +1,8 @@
 // @TODO: Uncomment the following file and complete the code
 //        according to the instructions in README.md.
 
-// Roster of player
-// var roster = [{
+// // Roster of player
+// const roster = [{
 //   name: "Doug",
 //   position: "Quarterback",
 //   madeTeam: true

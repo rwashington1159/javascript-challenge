@@ -1,5 +1,5 @@
 // A JavaScript object is similar to a Python dictionary
-var movie = {
+let movie = {
   name: "Star Wars",
   year: 1977,
   profitable: true,
@@ -28,8 +28,7 @@ if ("rating" in movie) {
 }
 
 // Built-in object methods in JavaScript
-// An array of objects
-var people = {
+let people = {
   mom: "wilma flintstone",
   dad: "fred flintstone",
   daughter: "pebbles",

@@ -1,5 +1,5 @@
 // Array of student names
-var students = ["Johnny", "Tyler", "Bodhi", "Pappas"];
+let students = ["Johnny", "Tyler", "Bodhi", "Pappas"];
 
 // This function will be called for each element in the array
 function printName(name) {
@@ -7,7 +7,7 @@ function printName(name) {
 }
 
 // Loop through each student name and call the printName function
-for (var i = 0; i < students.length; i++) {
+for (let i = 0; i < students.length; i++) {
   printName(students[i]);
 }
 
